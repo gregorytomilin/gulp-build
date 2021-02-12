@@ -1,0 +1,25 @@
+@import 'mixins';
+
+.block{
+    width: max-content;
+    font-size: 18px;
+    margin: auto auto;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgb(22, 85, 179);
+    color: white;
+    @include _m(600){
+        color: rgb(255, 230, 0);
+        padding: 10px;
+    }
+}
+
+.block2{
+    width: 100px;
+    width: 100px;
+    height: 10px;
+    @include _m(600){
+        color: red;
+    }
+}
+

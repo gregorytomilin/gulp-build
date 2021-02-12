@@ -1,0 +1,1 @@
+"use strict";var date=new Date;console.log(date.getDay());var a=[3,4,5,6],b=a.every(function(o){return o>2});console.log(b),console.log(b),console.log(b),console.log(b);
